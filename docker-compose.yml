@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  mylatex:
+    build: ./
+    volumes:
+      - ./:/mnt
+    tty: true
