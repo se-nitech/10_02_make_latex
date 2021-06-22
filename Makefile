@@ -5,6 +5,6 @@ thesis.pdf: $(TEXS)
 	dvipdfmx thesis.dvi
 
 .PHONY: all clean
-all: thesis
+all: thesis.pdf
 clean:
 	rm -f thesis.pdf thesis.dvi *.aux *.toc *.log *.fls *.fdb_latexmk
