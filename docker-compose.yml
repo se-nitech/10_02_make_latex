@@ -4,6 +4,5 @@ services:
   mylatex:
     build: ./
     volumes:
-      - ../:/mnt
+      - ./:/mnt
     tty: true
-    working_dir: /mnt/10_02_make_latex
